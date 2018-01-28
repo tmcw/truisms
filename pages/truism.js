@@ -72,7 +72,7 @@ export default class Truism extends React.Component {
           style={{ display: "none" }}
           ref={elem => (this.canvas = elem)}
         />
-        <img ref={img => (this.img = img)} />
+        <img className="w-100 vh-100" ref={img => (this.img = img)} />
         <div className="white pa3 db" onTouchStart={this.flip}>
           Flip
         </div>
