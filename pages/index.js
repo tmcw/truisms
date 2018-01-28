@@ -12,7 +12,13 @@ export default () => (
     </div>
     {truisms.map((tru, i) => (
       <Link key={i} href={`/truism?i=${i}`}>
-        <div className="ph4 pv6 ttu f3 lh-title futura bt b--white">{tru}</div>
+        <a
+          className={`db no-underline ph3 pv3 ttu f3 lh-title futura ${
+            i % 2 ? "white bg-black" : "black bg-white"
+          }`}
+        >
+          {tru}
+        </a>
       </Link>
     ))}
   </div>

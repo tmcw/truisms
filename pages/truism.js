@@ -34,7 +34,7 @@ export default class Truism extends React.Component {
     ctx.fillStyle = colors[0];
     ctx.fillRect(0, 0, window.innerWidth * 2, window.innerHeight * 2);
     ctx.fillStyle = colors[1];
-    ctx.font = "80px Futura";
+    ctx.font = "70px Futura";
     // wrapping text
     let words = truism.split(/\s+/);
     let lines = [];
@@ -48,17 +48,13 @@ export default class Truism extends React.Component {
         line.push(word);
       }
     }
+    ctx.translate(0, window.innerHeight / 1.3);
     lines.push(line);
-    let lineOffset = lines.length * 120 / 2;
     lines.forEach((line, i) => {
       let joinedLine = line.join(" ").toUpperCase();
       let leftOffset =
         (window.innerWidth * 2 - ctx.measureText(joinedLine).width) / 2;
-      ctx.fillText(
-        joinedLine,
-        leftOffset,
-        window.innerHeight - lineOffset + i * 120
-      );
+      ctx.fillText(joinedLine, leftOffset, i * 90);
     });
     this.img.src = canvas.toDataURL();
   }
@@ -73,9 +69,9 @@ export default class Truism extends React.Component {
           ref={elem => (this.canvas = elem)}
         />
         <img className="w-100 vh-100" ref={img => (this.img = img)} />
-        <div className="white pa3 db" onTouchStart={this.flip}>
+        <a className="white pa3 db no-underline pointer" onClick={this.flip}>
           Flip
-        </div>
+        </a>
         <Link href="/">
           <div className="white pa3">Back</div>
         </Link>
