@@ -48,7 +48,7 @@ export default class Truism extends React.Component {
         line.push(word);
       }
     }
-    ctx.translate(0, window.innerHeight / 1.3);
+    ctx.translate(0, window.innerHeight / 1.35);
     lines.push(line);
     lines.forEach((line, i) => {
       let joinedLine = line.join(" ").toUpperCase();
@@ -59,10 +59,12 @@ export default class Truism extends React.Component {
     this.img.src = canvas.toDataURL();
   }
   render() {
+    const { url: { query: { i } } } = this.props;
+    const truism = truisms[i];
     return (
       <div>
         <Head>
-          <title>Truisms</title>
+          <title>{truism.toUpperCase()}</title>
         </Head>
         <canvas
           style={{ display: "none" }}
