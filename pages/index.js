@@ -14,7 +14,7 @@ export default () => (
       <Link key={i} href={`/truism?i=${i}`}>
         <a
           className={`db no-underline ph3 pv3 ttu f3 lh-title futura ${
-            i % 2 ? "white bg-black" : "black bg-white"
+            i % 2 ? "white bg-black" : "white bg-mid-gray"
           }`}
         >
           {tru}

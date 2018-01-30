@@ -15,16 +15,17 @@ export default class Truism extends React.Component {
       () => this.draw()
     );
   };
+  componentWillReceiveProps() {
+    this.draw();
+  }
   componentDidMount() {
     this.draw();
   }
-  componentDidUpdate() {
-    this.draw();
-  }
   draw() {
+    if (typeof document === 'undefined') return;
     const colors = this.state.flip ? ["#fff", "#000"] : ["#000", "#fff"];
     const { url: { query: { i } } } = this.props;
-    const { canvas } = this;
+    const canvas = document.createElement('canvas');
     const truism = truisms[i];
     canvas.style.width = `${window.innerWidth}px`;
     canvas.style.height = `${window.innerHeight}px`;
@@ -56,27 +57,33 @@ export default class Truism extends React.Component {
         (window.innerWidth * 2 - ctx.measureText(joinedLine).width) / 2;
       ctx.fillText(joinedLine, leftOffset, i * 90);
     });
-    this.img.src = canvas.toDataURL();
+    this.setState({
+      img: canvas.toDataURL()
+    });
   }
   render() {
     const { url: { query: { i } } } = this.props;
+    const {img} = this.state;
     const truism = truisms[i];
     return (
       <div>
         <Head>
           <title>{truism.toUpperCase()}</title>
         </Head>
-        <canvas
-          style={{ display: "none" }}
-          ref={elem => (this.canvas = elem)}
-        />
-        <img className="w-100 vh-100" ref={img => (this.img = img)} />
+        <img className="w-100 vh-100" src={img} />
+        <a href={img} className="white pa3 db no-underline pointer bt b--white" download={truism.replace(/[^A-Za-z]/g, '')}>
+          Download
+        </a>
         <a className="white pa3 db no-underline pointer" onClick={this.flip}>
           Flip
         </a>
         <Link href="/">
-          <div className="white pa3">Back</div>
+          <div className="white pa3 pointer">Back</div>
         </Link>
+        <div className='bt b--white ph3 pt3 pb5'>
+          iOS: long-press, hit 'save image', go to settings → wallpaper<br /><br />
+          Android: save image, long-press on empty space on homescreen, pick wallpapers, set wallpaper
+        </div>
       </div>
     );
   }
