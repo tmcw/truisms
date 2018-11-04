@@ -7,7 +7,12 @@ export default () => (
     <Head>
       <title>Truisms</title>
     </Head>
-    <div className="fw5 f1 pa3 ttu futura vh-100 v-mid w-100 flex justify-center items-center">
+    <div
+      className="fw5 pa3 ttu futura vh-100 v-mid w-100 flex justify-center items-center"
+      style={{
+        fontSize: "20vw"
+      }}
+    >
       <div>Truisms</div>
     </div>
     {truisms.map((tru, i) => (
