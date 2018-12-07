@@ -53,10 +53,6 @@ export default withRouter(
         <div>
           <Head>
             <title>{truism.toUpperCase()}</title>
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="truisms" />
-            <meta name="twitter:title" content={truism} />
-            <meta name="twitter:image" content={`https://truisms.space/${i}.png`} />
           </Head>
           <img className="w-100 vh-100" src={img} />
           <a
