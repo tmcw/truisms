@@ -1,4 +1,8 @@
 {
+  "version": 2,
   "name": "truisms",
-  "alias": "truisms.space"
+  "alias": "truisms.space",
+  "builds": [
+    {"src":"next.config.js", "use": "@now/next"}
+  ]
 }
