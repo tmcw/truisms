@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Truisms</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <style>
+      body { font-family: futura; }
+      .even-odd a:nth-child(even) {
+        background: #555;
+      }
+    </style>
+  </head>
+  <body class='bg-black w-100 white'>
+  <div
+    class="fw5 pa3 ttu futura vh-100 v-mid w-100 flex justify-center items-center"
+    style='font-size:20vw'
+  >
+    <div>Truisms</div>
+  </div>
+  <div class='even-odd'>
+    {%- for post in collections.truism -%}
+      <a class='db no-underline ph3 pv3 ttu f3 lh-title futura white'
+        href='{{ post.url }}'
+      >{{ post.data.title }}</a>
+    {%- endfor -%}
+  </div>
+  </body>
+</html>
