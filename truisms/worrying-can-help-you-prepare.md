@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: worrying can help you prepare
-layout: truism.njk
+layout: truism.ejs
 ---
 
 worrying can help you prepare

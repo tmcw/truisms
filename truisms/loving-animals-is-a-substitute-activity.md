@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: loving animals is a substitute activity
-layout: truism.njk
+layout: truism.ejs
 ---
 
 loving animals is a substitute activity

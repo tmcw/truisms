@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: animalism is perfectly healthy
-layout: truism.njk
+layout: truism.ejs
 ---
 
 animalism is perfectly healthy

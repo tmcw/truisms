@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title><%= title.toUpperCase() %></title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <style>
+      body { font-family: futura; }
+    </style>
+  </head>
+  <body class='bg-black w-100 white'>
+  <img id='displayImage' class="w-100 vh-100"/>
+  <a
+    id=downloadLink
+    download='truism.png'
+    class="white pa3 db no-underline pointer bt b--white"
+  >
+    Download
+  </a>
+  <a class="white pa3 db no-underline pointer flip">
+    Flip
+  </a>
+  <a href="/">
+    <div class="white pa3 pointer">Back</div>
+  </a>
+  <div class="bt b--white ph3 pt3 pb5">
+    iOS: long-press, hit 'save image', go to settings → wallpaper
+    <br />
+    <br />
+    Android: save image, long-press on empty space on homescreen, pick
+    wallpapers, set wallpaper
+  </div>
+
+  <script>
+
+function render(
+  canvas,
+  truism,
+  colors,
+  { innerWidth, innerHeight }
+) {
+  canvas.width = innerWidth * 2;
+  canvas.height = innerHeight * 2;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = colors[0];
+  ctx.fillRect(0, 0, innerWidth * 2, innerHeight * 2);
+  ctx.fillStyle = colors[1];
+  ctx.font = "70px Futura";
+  // wrapping text
+  let words = truism.split(/\s+/);
+  let lines = [];
+  let line = [];
+  for (let word of words) {
+    let newWidth = ctx.measureText(line.concat(word).join(" ")).width;
+    if (newWidth > innerWidth) {
+      lines.push(line);
+      line = [word];
+    } else {
+      line.push(word);
+    }
+  }
+  ctx.translate(0, innerHeight / 1.35);
+  lines.push(line);
+  lines.forEach((line, i) => {
+    let joinedLine = line.join(" ").toUpperCase();
+    let leftOffset = (innerWidth * 2 - ctx.measureText(joinedLine).width) / 2;
+    ctx.fillText(joinedLine, leftOffset, i * 90);
+  });
+};
+
+class Truism {
+  constructor(text) {
+    this.text = text;
+    this._flip = false;
+  }
+  flip() {
+    this._flip = !this._flip;
+    this.draw()
+  };
+  draw() {
+    if (typeof document === "undefined") return;
+    const colors = this._flip ? ["#fff", "#000"] : ["#000", "#fff"];
+    const canvas = document.createElement("canvas");
+    canvas.style.width = `${window.innerWidth}px`;
+    canvas.style.height = `${window.innerHeight}px`;
+    const truism = this.text;
+    render(canvas, truism, colors, window);
+    const dataurl = canvas.toDataURL();
+    displayImage.src = dataurl;
+    downloadLink.href = dataurl;
+  }
+}
+
+const truism = new Truism("<%= title %>");
+truism.draw();
+
+window.addEventListener('resize', () => {
+  console.log('drawing');
+  truism.draw()
+});
+
+document.querySelector('.flip').onclick = () => truism.flip();
+</script>
+</body>
+</html>

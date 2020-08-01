@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: rechanneling destructive impulses is a sign of maturity
-layout: truism.njk
+layout: truism.ejs
 ---
 
 rechanneling destructive impulses is a sign of maturity

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: symbols are more meaningful than things themselves
-layout: truism.njk
+layout: truism.ejs
 ---
 
 symbols are more meaningful than things themselves

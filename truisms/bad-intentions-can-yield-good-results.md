@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: bad intentions can yield good results
-layout: truism.njk
+layout: truism.ejs
 ---
 
 bad intentions can yield good results

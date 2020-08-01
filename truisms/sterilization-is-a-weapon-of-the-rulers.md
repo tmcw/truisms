@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: sterilization is a weapon of the rulers
-layout: truism.njk
+layout: truism.ejs
 ---
 
 sterilization is a weapon of the rulers

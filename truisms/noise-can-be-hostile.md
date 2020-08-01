@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: noise can be hostile
-layout: truism.njk
+layout: truism.ejs
 ---
 
 noise can be hostile

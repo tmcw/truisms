@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: the idea of revolution is an adolescent fantasy
-layout: truism.njk
+layout: truism.ejs
 ---
 
 the idea of revolution is an adolescent fantasy

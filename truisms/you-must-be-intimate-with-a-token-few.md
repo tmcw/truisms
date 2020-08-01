@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: you must be intimate with a token few
-layout: truism.njk
+layout: truism.ejs
 ---
 
 you must be intimate with a token few

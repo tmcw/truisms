@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: people who go crazy are too sensitive
-layout: truism.njk
+layout: truism.ejs
 ---
 
 people who go crazy are too sensitive

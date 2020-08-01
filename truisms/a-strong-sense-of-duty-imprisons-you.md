@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: a strong sense of duty imprisons you
-layout: truism.njk
+layout: truism.ejs
 ---
 
 a strong sense of duty imprisons you

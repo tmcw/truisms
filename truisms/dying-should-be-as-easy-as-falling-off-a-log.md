@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: dying should be as easy as falling off a log
-layout: truism.njk
+layout: truism.ejs
 ---
 
 dying should be as easy as falling off a log

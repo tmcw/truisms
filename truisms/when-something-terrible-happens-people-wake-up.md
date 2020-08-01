@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: when something terrible happens people wake up
-layout: truism.njk
+layout: truism.ejs
 ---
 
 when something terrible happens people wake up

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: any surplus is immoral
-layout: truism.njk
+layout: truism.ejs
 ---
 
 any surplus is immoral

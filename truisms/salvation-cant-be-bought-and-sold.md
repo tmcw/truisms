@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: salvation can’t be bought and sold
-layout: truism.njk
+layout: truism.ejs
 ---
 
 salvation can’t be bought and sold

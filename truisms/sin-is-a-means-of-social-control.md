@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: sin is a means of social control
-layout: truism.njk
+layout: truism.ejs
 ---
 
 sin is a means of social control

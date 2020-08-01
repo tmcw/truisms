@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: violence is permissible even desirable occasionally
-layout: truism.njk
+layout: truism.ejs
 ---
 
 violence is permissible even desirable occasionally

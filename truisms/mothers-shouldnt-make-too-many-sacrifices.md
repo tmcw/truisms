@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: mothers shouldn’t make too many sacrifices
-layout: truism.njk
+layout: truism.ejs
 ---
 
 mothers shouldn’t make too many sacrifices

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: ensure that your life stays in flux
-layout: truism.njk
+layout: truism.ejs
 ---
 
 ensure that your life stays in flux

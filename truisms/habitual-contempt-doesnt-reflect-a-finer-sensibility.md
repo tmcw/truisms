@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: habitual contempt doesn’t reflect a finer sensibility
-layout: truism.njk
+layout: truism.ejs
 ---
 
 habitual contempt doesn’t reflect a finer sensibility

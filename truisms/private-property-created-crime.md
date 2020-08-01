@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: private property created crime
-layout: truism.njk
+layout: truism.ejs
 ---
 
 private property created crime

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: awful punishment awaits really bad people
-layout: truism.njk
+layout: truism.ejs
 ---
 
 awful punishment awaits really bad people

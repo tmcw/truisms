@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: war is a purification rite
-layout: truism.njk
+layout: truism.ejs
 ---
 
 war is a purification rite

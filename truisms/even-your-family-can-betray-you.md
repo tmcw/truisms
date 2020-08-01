@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: even your family can betray you
-layout: truism.njk
+layout: truism.ejs
 ---
 
 even your family can betray you

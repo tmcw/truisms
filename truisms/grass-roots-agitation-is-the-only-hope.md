@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: grass roots agitation is the only hope
-layout: truism.njk
+layout: truism.ejs
 ---
 
 grass roots agitation is the only hope

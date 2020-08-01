@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: calm is more conducive to creativity than is anxiety
-layout: truism.njk
+layout: truism.ejs
 ---
 
 calm is more conducive to creativity than is anxiety

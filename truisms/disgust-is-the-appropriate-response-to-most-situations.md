@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: disgust is the appropriate response to most situations
-layout: truism.njk
+layout: truism.ejs
 ---
 
 disgust is the appropriate response to most situations

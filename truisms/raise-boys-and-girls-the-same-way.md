@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: raise boys and girls the same way
-layout: truism.njk
+layout: truism.ejs
 ---
 
 raise boys and girls the same way

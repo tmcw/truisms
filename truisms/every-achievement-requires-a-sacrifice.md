@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: every achievement requires a sacrifice
-layout: truism.njk
+layout: truism.ejs
 ---
 
 every achievement requires a sacrifice

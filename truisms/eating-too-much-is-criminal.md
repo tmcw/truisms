@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: eating too much is criminal
-layout: truism.njk
+layout: truism.ejs
 ---
 
 eating too much is criminal

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: artificial desires are despoiling the earth
-layout: truism.njk
+layout: truism.ejs
 ---
 
 artificial desires are despoiling the earth

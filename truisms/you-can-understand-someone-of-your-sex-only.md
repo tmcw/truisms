@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: you can understand someone of your sex only
-layout: truism.njk
+layout: truism.ejs
 ---
 
 you can understand someone of your sex only

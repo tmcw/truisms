@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: children are the hope of the future
-layout: truism.njk
+layout: truism.ejs
 ---
 
 children are the hope of the future

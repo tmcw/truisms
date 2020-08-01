@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: to disagree presupposes moral integrity
-layout: truism.njk
+layout: truism.ejs
 ---
 
 to disagree presupposes moral integrity

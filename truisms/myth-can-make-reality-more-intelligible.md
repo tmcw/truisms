@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: myth can make reality more intelligible
-layout: truism.njk
+layout: truism.ejs
 ---
 
 myth can make reality more intelligible

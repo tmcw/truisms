@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: nothing upsets the balance of good and evil
-layout: truism.njk
+layout: truism.ejs
 ---
 
 nothing upsets the balance of good and evil

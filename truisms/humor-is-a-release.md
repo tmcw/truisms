@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: humor is a release
-layout: truism.njk
+layout: truism.ejs
 ---
 
 humor is a release

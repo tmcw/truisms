@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: you should study as much as possible
-layout: truism.njk
+layout: truism.ejs
 ---
 
 you should study as much as possible

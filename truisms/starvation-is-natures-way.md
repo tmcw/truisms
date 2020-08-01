@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: starvation is nature’s way
-layout: truism.njk
+layout: truism.ejs
 ---
 
 starvation is nature’s way

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: people who don’t work with their hands are parasites
-layout: truism.njk
+layout: truism.ejs
 ---
 
 people who don’t work with their hands are parasites

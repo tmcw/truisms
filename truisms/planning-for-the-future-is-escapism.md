@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: planning for the future is escapism
-layout: truism.njk
+layout: truism.ejs
 ---
 
 planning for the future is escapism

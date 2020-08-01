@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: the mundane is to be cherished
-layout: truism.njk
+layout: truism.ejs
 ---
 
 the mundane is to be cherished

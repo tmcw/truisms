@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: to volunteer is reactionary
-layout: truism.njk
+layout: truism.ejs
 ---
 
 to volunteer is reactionary

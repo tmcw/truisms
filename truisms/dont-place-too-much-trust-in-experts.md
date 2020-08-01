@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: don’t place too much trust in experts
-layout: truism.njk
+layout: truism.ejs
 ---
 
 don’t place too much trust in experts

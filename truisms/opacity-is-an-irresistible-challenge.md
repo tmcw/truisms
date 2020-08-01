@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: opacity is an irresistible challenge
-layout: truism.njk
+layout: truism.ejs
 ---
 
 opacity is an irresistible challenge

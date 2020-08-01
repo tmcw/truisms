@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: torture is barbaric
-layout: truism.njk
+layout: truism.ejs
 ---
 
 torture is barbaric

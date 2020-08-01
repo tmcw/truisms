@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: change is valuable when the oppressed become tyrants
-layout: truism.njk
+layout: truism.ejs
 ---
 
 change is valuable when the oppressed become tyrants

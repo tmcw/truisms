@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: good deeds eventually are rewarded
-layout: truism.njk
+layout: truism.ejs
 ---
 
 good deeds eventually are rewarded

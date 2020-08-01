@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: you can live on through your descendants
-layout: truism.njk
+layout: truism.ejs
 ---
 
 you can live on through your descendants

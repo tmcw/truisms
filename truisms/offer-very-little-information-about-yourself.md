@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: offer very little information about yourself
-layout: truism.njk
+layout: truism.ejs
 ---
 
 offer very little information about yourself

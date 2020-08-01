@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: ambition is just as dangerous as complacency
-layout: truism.njk
+layout: truism.ejs
 ---
 
 ambition is just as dangerous as complacency

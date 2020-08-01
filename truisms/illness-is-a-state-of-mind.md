@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: illness is a state of mind
-layout: truism.njk
+layout: truism.ejs
 ---
 
 illness is a state of mind

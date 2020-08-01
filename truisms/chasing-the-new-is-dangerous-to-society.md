@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: chasing the new is dangerous to society
-layout: truism.njk
+layout: truism.ejs
 ---
 
 chasing the new is dangerous to society

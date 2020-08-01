@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: fathers often use too much force
-layout: truism.njk
+layout: truism.ejs
 ---
 
 fathers often use too much force

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: you must know where you stop and the world begins
-layout: truism.njk
+layout: truism.ejs
 ---
 
 you must know where you stop and the world begins

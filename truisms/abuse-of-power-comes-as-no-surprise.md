@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: abuse of power comes as no surprise
-layout: truism.njk
+layout: truism.ejs
 ---
 
 abuse of power comes as no surprise

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: thinking too much can only cause problems
-layout: truism.njk
+layout: truism.ejs
 ---
 
 thinking too much can only cause problems

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: routine is a link with the past
-layout: truism.njk
+layout: truism.ejs
 ---
 
 routine is a link with the past

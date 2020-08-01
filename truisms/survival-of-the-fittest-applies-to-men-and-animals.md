@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: survival of the fittest applies to men and animals
-layout: truism.njk
+layout: truism.ejs
 ---
 
 survival of the fittest applies to men and animals

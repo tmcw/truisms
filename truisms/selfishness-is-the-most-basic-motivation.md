@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: selfishness is the most basic motivation
-layout: truism.njk
+layout: truism.ejs
 ---
 
 selfishness is the most basic motivation

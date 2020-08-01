@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: abstraction is a type of decadence
-layout: truism.njk
+layout: truism.ejs
 ---
 
 abstraction is a type of decadence

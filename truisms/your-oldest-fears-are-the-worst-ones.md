@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: your oldest fears are the worst ones
-layout: truism.njk
+layout: truism.ejs
 ---
 
 your oldest fears are the worst ones

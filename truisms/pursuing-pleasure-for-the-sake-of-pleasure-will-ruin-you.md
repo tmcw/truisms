@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: pursuing pleasure for the sake of pleasure will ruin you
-layout: truism.njk
+layout: truism.ejs
 ---
 
 pursuing pleasure for the sake of pleasure will ruin you

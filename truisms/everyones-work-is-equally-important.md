@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: everyone’s work is equally important
-layout: truism.njk
+layout: truism.ejs
 ---
 
 everyone’s work is equally important

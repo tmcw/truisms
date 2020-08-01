@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: categorizing fear is calming
-layout: truism.njk
+layout: truism.ejs
 ---
 
 categorizing fear is calming

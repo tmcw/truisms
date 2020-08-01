@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: potential counts for nothing until it’s realized
-layout: truism.njk
+layout: truism.ejs
 ---
 
 potential counts for nothing until it’s realized

@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: anything is a legitimate area of investigation
-layout: truism.njk
+layout: truism.ejs
 ---
 
 anything is a legitimate area of investigation

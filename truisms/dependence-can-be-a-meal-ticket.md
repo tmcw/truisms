@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: dependence can be a meal ticket
-layout: truism.njk
+layout: truism.ejs
 ---
 
 dependence can be a meal ticket

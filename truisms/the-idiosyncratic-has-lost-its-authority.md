@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: the idiosyncratic has lost its authority
-layout: truism.njk
+layout: truism.ejs
 ---
 
 the idiosyncratic has lost its authority

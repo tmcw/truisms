@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: your actions are pointless if no one notices
-layout: truism.njk
+layout: truism.ejs
 ---
 
 your actions are pointless if no one notices

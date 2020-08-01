@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: automation is deadly
-layout: truism.njk
+layout: truism.ejs
 ---
 
 automation is deadly

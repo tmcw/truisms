@@ -8,7 +8,7 @@ for (let ism of isms) {
     `---
 tags: truism
 title: ${ism}
-layout: truism.njk
+layout: truism.ejs
 ---
 
 ${ism}`

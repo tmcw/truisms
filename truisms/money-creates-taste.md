@@ -1,7 +1,7 @@
 ---
 tags: truism
 title: money creates taste
-layout: truism.njk
+layout: truism.ejs
 ---
 
 money creates taste
